@@ -1,0 +1,14 @@
+{
+    "name": {
+        "ar": "Hero section",
+        "en": "Hero section"
+    },
+    "description": {
+        "ar": "",
+        "en": ""
+    },
+    "author_email": "reemo.i.sh@gmail.com",
+    "support_url": "",
+    "repository": "https://github.com/ReemShraihi/tw-hero-section",
+    "components": []
+}
