@@ -1,14 +1,14 @@
 {
     "name": {
-        "ar": "Hero section",
-        "en": "Hero section"
+        "ar": "هيرو الغابة",
+        "en": "Forest hero"
     },
     "description": {
-        "ar": "",
-        "en": ""
+        "ar": null,
+        "en": null
     },
     "author_email": "reemo.i.sh@gmail.com",
-    "support_url": "",
+    "support_url": null,
     "repository": "https://github.com/ReemShraihi/tw-hero-section",
     "components": []
 }
