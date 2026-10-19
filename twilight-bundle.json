@@ -7,8 +7,8 @@
         "ar": null,
         "en": null
     },
-    "author_email": "reemo.i.sh@gmail.com",
-    "support_url": null,
+    "author_email": "templify.sa@gmail.com",
+    "support_url": "https://salla.sa/Templify/تواصل-معنا/page-1493658212",
     "repository": "https://github.com/ReemShraihi/tw-hero-section",
     "components": [
         {
@@ -18,43 +18,209 @@
             "key": "04c4ed21-a032-4f46-8c83-ec5f7ae4756b",
             "image": "https://cdn.salla.network/images/themes/default/placeholder.jpg",
             "fields": [
-                { "id": "bg_image", "icon": "sicon-image", "type": "string", "format": "image", "label": "صورة الخلفية", "required": false, "value": null, "description": "* المقاس المناسب للصورة هو 1920×1080 بكسل" },
-                { "id": "badge_label", "icon": "sicon-format-text-alt", "type": "string", "format": "text", "label": "نص الشارة (جديد)", "required": false, "value": "جديد" },
-                { "id": "badge_text", "icon": "sicon-format-text-alt", "type": "string", "format": "text", "label": "نص الإعلان", "required": false, "value": "مجموعة الخريف الآن متوفرة" },
-                { "id": "badge_url", "icon": "sicon-link", "type": "string", "format": "text", "label": "رابط الإعلان", "required": false, "value": "" },
-                { "id": "title_1", "icon": "sicon-format-text-alt", "type": "string", "format": "text", "label": "العنوان - السطر الأول", "required": false, "value": "رائحـــة" },
-                { "id": "title_highlight", "icon": "sicon-format-text-alt", "type": "string", "format": "text", "label": "العنوان - الكلمة المميزة", "required": false, "value": "تنمو" },
-                { "id": "title_2", "icon": "sicon-format-text-alt", "type": "string", "format": "text", "label": "العنوان - الجزء الأبيض", "required": false, "value": "معك" },
-                { "id": "description", "icon": "sicon-typography", "type": "string", "format": "textarea", "label": "الوصف", "required": false, "value": "عطور فاخرة مستوحاة من عمق الغابة، تمزج بين نقاء الطبيعة وحرفية الصنع لتترك أثرًا لا يُنسى" },
-                { "id": "btn_text", "icon": "sicon-format-text-alt", "type": "string", "format": "text", "label": "نص الزر", "required": false, "value": "اكتشـف المجمـوعة" },
-                { "id": "btn_url", "icon": "sicon-link", "type": "string", "format": "text", "label": "رابط الزر", "required": false, "value": "" },
-                { "id": "use_store_color", "icon": "sicon-toggle-off", "type": "boolean", "format": "switch", "label": "استخدام اللون الرئيسي للمتجر", "required": false, "value": false, "selected": false },
-                { "id": "accent_color", "icon": "sicon-palette", "type": "string", "format": "color", "label": "اللون المميز", "required": false, "value": "#C6F432",
-                  "conditions": [{ "id": "use_store_color", "operation": "=", "value": false }] },
                 {
-                    "id": "trust_items", "type": "collection", "format": "collection", "label": "نقاط الثقة", "item_label": "نقطة",
-                    "required": false, "minLength": 0, "maxLength": 4,
-                    "value": [
-                        { "trust_items.text": "مكوّنات طبيعية 100%" },
-                        { "trust_items.text": "شحن فاخر مجاني" },
-                        { "trust_items.text": "ضمان الاستبدال" }
-                    ],
-                    "fields": [
-                        { "id": "trust_items.text", "icon": "sicon-format-text-alt", "type": "string", "format": "text", "label": "النص", "required": false, "value": null }
+                    "id": "bg_image",
+                    "icon": "sicon-image",
+                    "type": "string",
+                    "format": "image",
+                    "label": "صورة الخلفية",
+                    "required": false,
+                    "value": null,
+                    "description": "* المقاس المناسب للصورة هو 1920×1080 بكسل"
+                },
+                {
+                    "id": "badge_label",
+                    "icon": "sicon-format-text-alt",
+                    "type": "string",
+                    "format": "text",
+                    "label": "نص الشارة (جديد)",
+                    "required": false,
+                    "value": "جديد"
+                },
+                {
+                    "id": "badge_text",
+                    "icon": "sicon-format-text-alt",
+                    "type": "string",
+                    "format": "text",
+                    "label": "نص الإعلان",
+                    "required": false,
+                    "value": "مجموعة الخريف الآن متوفرة"
+                },
+                {
+                    "id": "badge_url",
+                    "icon": "sicon-link",
+                    "type": "string",
+                    "format": "text",
+                    "label": "رابط الإعلان",
+                    "required": false,
+                    "value": ""
+                },
+                {
+                    "id": "title_1",
+                    "icon": "sicon-format-text-alt",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان - السطر الأول",
+                    "required": false,
+                    "value": "رائحـــة"
+                },
+                {
+                    "id": "title_highlight",
+                    "icon": "sicon-format-text-alt",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان - الكلمة المميزة",
+                    "required": false,
+                    "value": "تنمو"
+                },
+                {
+                    "id": "title_2",
+                    "icon": "sicon-format-text-alt",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان - الجزء الأبيض",
+                    "required": false,
+                    "value": "معك"
+                },
+                {
+                    "id": "description",
+                    "icon": "sicon-typography",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "الوصف",
+                    "required": false,
+                    "value": "عطور فاخرة مستوحاة من عمق الغابة، تمزج بين نقاء الطبيعة وحرفية الصنع لتترك أثرًا لا يُنسى"
+                },
+                {
+                    "id": "btn_text",
+                    "icon": "sicon-format-text-alt",
+                    "type": "string",
+                    "format": "text",
+                    "label": "نص الزر",
+                    "required": false,
+                    "value": "اكتشـف المجمـوعة"
+                },
+                {
+                    "id": "btn_url",
+                    "icon": "sicon-link",
+                    "type": "string",
+                    "format": "text",
+                    "label": "رابط الزر",
+                    "required": false,
+                    "value": ""
+                },
+                {
+                    "id": "use_store_color",
+                    "icon": "sicon-toggle-off",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "استخدام اللون الرئيسي للمتجر",
+                    "required": false,
+                    "value": false,
+                    "selected": false
+                },
+                {
+                    "id": "accent_color",
+                    "icon": "sicon-palette",
+                    "type": "string",
+                    "format": "color",
+                    "label": "اللون المميز",
+                    "required": false,
+                    "value": "#C6F432",
+                    "conditions": [
+                        {
+                            "id": "use_store_color",
+                            "operation": "=",
+                            "value": false
+                        }
                     ]
                 },
                 {
-                    "id": "cards", "type": "collection", "format": "collection", "label": "كروت المميزات", "item_label": "كرت",
-                    "required": false, "minLength": 0, "maxLength": 4,
+                    "id": "trust_items",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "نقاط الثقة",
+                    "item_label": "نقطة",
+                    "required": false,
+                    "minLength": 0,
+                    "maxLength": 4,
                     "value": [
-                        { "cards.icon": "sicon-package", "cards.title": "حرفية مضمونة", "cards.text": "كل زجاجة تمر بمراحل فحص دقيقة، لضمان جودة تستحق اسمك" },
-                        { "cards.icon": "sicon-clock", "cards.title": "ثبات يدوم", "cards.text": "تركيبة مركّزة تمنحك رائحة تدوم طوال اليوم، بثبات وعمق ملحوظ" },
-                        { "cards.icon": "sicon-wallet", "cards.title": "مكوّنات نقية", "cards.text": "نستخلص كل عطر من مصادر طبيعية مختارة بعناية، من دون أي إضافات صناعية" }
+                        {
+                            "trust_items.text": "مكوّنات طبيعية 100%"
+                        },
+                        {
+                            "trust_items.text": "شحن فاخر مجاني"
+                        },
+                        {
+                            "trust_items.text": "ضمان الاستبدال"
+                        }
                     ],
                     "fields": [
-                        { "id": "cards.icon", "icon": "sicon-image", "type": "string", "format": "icon", "label": "الأيقونة", "required": false, "value": "sicon-package" },
-                        { "id": "cards.title", "icon": "sicon-format-text-alt", "type": "string", "format": "text", "label": "العنوان", "required": false, "value": null },
-                        { "id": "cards.text", "icon": "sicon-typography", "type": "string", "format": "textarea", "label": "الوصف", "required": false, "value": null }
+                        {
+                            "id": "trust_items.text",
+                            "icon": "sicon-format-text-alt",
+                            "type": "string",
+                            "format": "text",
+                            "label": "النص",
+                            "required": false,
+                            "value": null
+                        }
+                    ]
+                },
+                {
+                    "id": "cards",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "كروت المميزات",
+                    "item_label": "كرت",
+                    "required": false,
+                    "minLength": 0,
+                    "maxLength": 4,
+                    "value": [
+                        {
+                            "cards.icon": "sicon-package",
+                            "cards.title": "حرفية مضمونة",
+                            "cards.text": "كل زجاجة تمر بمراحل فحص دقيقة، لضمان جودة تستحق اسمك"
+                        },
+                        {
+                            "cards.icon": "sicon-clock",
+                            "cards.title": "ثبات يدوم",
+                            "cards.text": "تركيبة مركّزة تمنحك رائحة تدوم طوال اليوم، بثبات وعمق ملحوظ"
+                        },
+                        {
+                            "cards.icon": "sicon-wallet",
+                            "cards.title": "مكوّنات نقية",
+                            "cards.text": "نستخلص كل عطر من مصادر طبيعية مختارة بعناية، من دون أي إضافات صناعية"
+                        }
+                    ],
+                    "fields": [
+                        {
+                            "id": "cards.icon",
+                            "icon": "sicon-image",
+                            "type": "string",
+                            "format": "icon",
+                            "label": "الأيقونة",
+                            "required": false,
+                            "value": "sicon-package"
+                        },
+                        {
+                            "id": "cards.title",
+                            "icon": "sicon-format-text-alt",
+                            "type": "string",
+                            "format": "text",
+                            "label": "العنوان",
+                            "required": false,
+                            "value": null
+                        },
+                        {
+                            "id": "cards.text",
+                            "icon": "sicon-typography",
+                            "type": "string",
+                            "format": "textarea",
+                            "label": "الوصف",
+                            "required": false,
+                            "value": null
+                        }
                     ]
                 }
             ]
