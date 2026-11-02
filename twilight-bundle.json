@@ -225,5 +225,15 @@
                 }
             ]
         }
+    ],
+    "templates": [
+        {
+            "id": "4c9959f6-5764-4485-aa6f-e12ae9e3d071",
+            "path": "templates.forest-hero-default",
+            "category_id": "665151403",
+            "primary_color": "",
+            "thumbnail": "templates-thumbs/forest-hero-default.png",
+            "is_default": true
+        }
     ]
 }
