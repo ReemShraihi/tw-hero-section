@@ -52,7 +52,7 @@
           "format": "text",
           "label": "العنوان - السطر الأول",
           "required": false,
-          "value": "رائحـــة"
+          "value": "رائحــــــــــــــة"
         },
         {
           "id": "title_highlight",
@@ -61,7 +61,7 @@
           "format": "text",
           "label": "العنوان - الكلمة المميزة",
           "required": false,
-          "value": "تنمو"
+          "value": "تنمـــــــــــــــو"
         },
         {
           "id": "title_2",
@@ -136,7 +136,7 @@
           "maxLength": 4,
           "value": [
             {
-              "trust_items.text": "مكوّنات طبيعية 100%"
+              "trust_items.text": "مكونات طبيعية 100%"
             },
             {
               "trust_items.text": "شحن فاخر مجاني"
@@ -173,12 +173,12 @@
               "cards.text": "كل زجاجة تمر بمراحل فحص دقيقة، لضمان جودة تستحق اسمك"
             },
             {
-              "cards.icon": "sicon-clock",
+              "cards.icon": "sicon-favorite",
               "cards.title": "ثبات يدوم",
               "cards.text": "تركيبة مركّزة تمنحك رائحة تدوم طوال اليوم، بثبات وعمق ملحوظ"
             },
             {
-              "cards.icon": "sicon-flower-setting",
+              "cards.icon": "sicon-leaf-angle",
               "cards.title": "مكوّنات نقية",
               "cards.text": "نستخلص كل عطر من مصادر طبيعية مختارة بعناية، من دون أي إضافات صناعية"
             }
