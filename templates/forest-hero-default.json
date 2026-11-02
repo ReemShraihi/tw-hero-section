@@ -15,7 +15,7 @@
           "format": "image",
           "label": "صورة الخلفية",
           "required": false,
-          "value": "",
+          "value": "https://cdn.files.salla.network/other/1390518060/c96125e0-2003-41ff-af16-6086888b99cd-original.webp",
           "description": "* المقاس المناسب للصورة هو 1920×1080 بكسل"
         },
         {
